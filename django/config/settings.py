@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django_extensions',
     'myapp',
 
     'relations.foreignkey.apps.ForeignkeyConfig',
@@ -42,7 +43,8 @@ INSTALLED_APPS = [
     'relations.one_to_one.apps.OneToOneConfig',
 
     'inheritance.abstract_base_classes',
-    'inheritance.rel.apps.RelConfig'
+    'inheritance.rel.apps.RelConfig',
+    'inheritance.multi_table.apps.MultiTableConfig',
 ]
 
 MIDDLEWARE = [
