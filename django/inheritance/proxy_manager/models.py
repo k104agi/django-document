@@ -11,7 +11,7 @@ class Person(models.Model):
 #커스텀 매니저
 class NewManager(Manager):
     def get_query(self):
-        print('NewMAnager get_queryset')
+        print('NewManager get_queryset')
         return super().get_queryset()
 
 #커스텀 매니저를 직접 자기 속성으로 갖는 MyPerson1
