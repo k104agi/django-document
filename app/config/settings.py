@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'inheritance.proxy_manager.apps.ProxyManagerConfig',
     'inheritance.multiple_inheritance.apps.MultipleInheritanceConfig',
 
+    'weblog.apps.WeblogConfig',
 ]
 
 MIDDLEWARE = [
